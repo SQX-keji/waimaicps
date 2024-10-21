@@ -1,0 +1,422 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "省钱兄外卖",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none"
+				}
+			},
+			"navigationStyle": "custom"
+		},
+		{
+			"path": "pages/index/pdd",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": {
+						"type": "transparent",
+						"buttons": [{
+							"type": "menu"
+						}]
+					}
+				}
+			}
+		},
+
+		{
+			"path": "pages/member/message",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "消息中心",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"scrollIndicator": "none",
+					"bounce": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/member/jifen",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "我的积分",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"scrollIndicator": "none",
+					"bounce": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/member/mobile",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "实名认证",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"scrollIndicator": "none",
+					"bounce": "none",
+					"titleNView": true
+				}
+			}
+		},
+
+
+		{
+			"path": "pages/member/chongzhi",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "积分兑换",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": {
+						"buttons": [{
+							"float": "left"
+						}]
+					}
+				}
+			}
+		},
+
+
+		{
+			"path": "pages/index/mian",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"bounce": "none",
+					"pullToRefresh": {
+						"style": "circle",
+						"color": "#FF2638",
+						"offset": "50px"
+					},
+					"titleNView": {
+						"buttons": [{
+							"text": "",
+							"float": "left"
+						}]
+					}
+				}
+			}
+		},
+
+		{
+			"path": "pages/member/mimi",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "隐私政策",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"text": "",
+							"float": "left"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/member/xieyi",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "用户协议",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"text": "",
+							"float": "left"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/member/webview",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/member/publisher",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "会员申请",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": false
+				}
+			}
+		},
+
+		{
+			"path": "pages/member/register",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/order/team",
+			"style": {
+				"navigationBarTitleText": "团队订单",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/order/find",
+			"style": {
+				"navigationBarTitleText": "订单找回",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/member/cashList",
+			"style": {
+				"navigationBarTitleText": "提现记录"
+			}
+		},
+		{
+			"path": "pages/member/cash",
+			"style": {
+				"navigationBarTitleText": "提现",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/member/yao",
+			"style": {
+				"navigationBarTitleText": "推广中心",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": true
+				}
+			}
+		},
+
+		{
+			"path": "pages/member/account",
+			"style": {
+				"navigationBarTitleText": "帐号安全"
+			}
+		},
+		{
+			"path": "pages/member/yaoqing",
+			"style": {
+				"navigationBarTitleText": "我的团队"
+			}
+		},
+		{
+			"path": "pages/member/zhifubao",
+			"style": {
+				"navigationBarTitleText": "提现账号",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的收益",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": true
+				}
+			}
+		},{
+			"path": "pages/member/cashDetail",
+			"style": {
+				"navigationBarTitleText": "申请提现",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": true
+				}
+			}
+		},{
+			"path": "pages/member/customer",
+			"style": {
+				"navigationBarTitleText": "联系客服",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/member/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/member/moneyList",
+			"style": {
+				"navigationBarTitleText": "钱包明细"
+			}
+		},
+		{
+			"path": "pages/index/eleme",
+			"style": {
+				"navigationBarTitleText": "饿了么红包",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/meituan",
+			"style": {
+				"navigationBarTitleText": "美团红包",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/member/meituan",
+			"style": {
+				"navigationBarTitleText": "美团",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/member/eleme",
+			"style": {
+				"navigationBarTitleText": "饿了么",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/youxuan/index",
+			"style": {
+				"navigationBarTitleText": "优选",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": false
+				}
+			}
+		}
+	],
+	"globalStyle": { //全局颜色
+		"navigationBarTextStyle": "FFFFFF",
+		"navigationBarTitleText": "省钱兄外卖",
+		"navigationBarBackgroundColor": "#FD6416",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#FD6416",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/tabbar/home.png",
+				"selectedIconPath": "static/img/tabbar/home-act.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/index/eleme",
+				"iconPath": "static/img/tabbar/elm.png",
+				"selectedIconPath": "static/img/tabbar/elm-act.png",
+				"text": "饿了么"
+			},
+			{
+				"pagePath": "pages/youxuan/index",
+				"iconPath": "static/img/tabbar/youxuan.png",
+				"selectedIconPath": "static/img/tabbar/youxuan-act.png",
+				"text": "优选"
+			},
+			{
+				"pagePath": "pages/index/meituan",
+				"iconPath": "static/img/tabbar/mt.png",
+				"selectedIconPath": "static/img/tabbar/mt-act.png",
+				"text": "美团"
+			},
+			{
+				"pagePath": "pages/member/user",
+				"iconPath": "static/img/tabbar/my.png",
+				"selectedIconPath": "static/img/tabbar/my-act.png",
+				"text": "我的"
+			}
+		]
+	},
+	"condition": {
+		//模式配置，仅开发期间生效
+		"current": 0,
+		//当前激活的模式(list 的索引项)
+		"list": [
+			// 			{
+			// 			"name": "商品详情", //模式名称
+			// 			"path": "pages/jiu/index", //启动页面，必选
+			// 			"query": "itemid=111" //启动参数，在页面的onLoad函数里面得到
+			// 		}
+		]
+	}
+}
